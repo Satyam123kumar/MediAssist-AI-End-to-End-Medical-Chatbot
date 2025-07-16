@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: GenAI-MediAssist
+Version: 0.0.0
+Author: Satyam Kumar
+Author-email: satyamkumar14416@gmail.com
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file

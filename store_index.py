@@ -5,7 +5,7 @@ from langchain_pinecone import PineconeVectorStore
 from dotenv import load_dotenv
 import os
 load_dotenv()
-os.environ['HF_HOME'] = 'E:/huggingface_cache'
+# os.environ['HF_HOME'] = 'E:/huggingface_cache'
 
 
 PINECONE_API_KEY=os.environ.get('PINECONE_API_KEY')

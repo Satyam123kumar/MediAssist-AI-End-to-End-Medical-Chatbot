@@ -3,6 +3,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from typing import List
 from langchain.schema import Document
+from google import genai
 import os
 
 
@@ -41,6 +42,6 @@ def text_split(minimal_docs):
 
 
 #Download the Embeddings from Hugging Face
-def download_hugging_face_embeddings():
-    embeddings=HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
-    return embeddings
+# def download_hugging_face_embeddings():
+#     embeddings=HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
+#     return embeddings

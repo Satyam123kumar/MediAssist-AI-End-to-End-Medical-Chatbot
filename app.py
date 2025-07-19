@@ -17,8 +17,8 @@ load_dotenv()
 PINECONE_API_KEY=os.environ.get('PINECONE_API_KEY')
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 
-GOOGLE_CLOUD_API_KEY=os.environ.get('GOOGLE_CLOUD_API_KEY')
-os.environ["GOOGLE_GEMINI_API_KEY"] = GOOGLE_CLOUD_API_KEY
+GOOGLE_API_KEY=os.environ.get('GOOGLE_API_KEY')
+os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 embeddings = download_hugging_face_embeddings()
 
@@ -33,7 +33,7 @@ retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
-    google_api_key=GOOGLE_CLOUD_API_KEY,
+    google_api_key=GOOGLE_API_KEY,
     temperature=0.4,
     max_tokens=500
 )

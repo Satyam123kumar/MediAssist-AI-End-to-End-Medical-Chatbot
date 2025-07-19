@@ -2,6 +2,10 @@
 
 An intelligent medical chatbot designed to provide accurate, fact-grounded answers from a trusted medical encyclopedia. This project uses a Retrieval-Augmented Generation (RAG) architecture to ensure reliability and minimize misinformation.
 
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/6037c0b7-3a72-4923-b46a-9abab5c59316" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/fd4913ab-f745-4a05-bfd2-12c09bc69130" />
+
+
 ## ✨ Features
 
 * **Fact-Grounded Responses:** Leverages a RAG pipeline to retrieve relevant information from a medical knowledge base before generating an answer.
@@ -44,7 +48,7 @@ Follow these steps to set up and run the project locally.
 
 1.  **Clone the Repository**
     ```sh
-    git clone [https://github.com/Satyam123kumar/MediAssist-AI-End-to-End-Medical-Chatbot.git](https://github.com/Satyam123kumar/MediAssist-AI-End-to-End-Medical-Chatbot.git)
+    git clone [https://github.com/Satyam123kumar/MediAssist-AI-End-to-End-Medical-Chatbot.git]
     cd MediAssist-AI-End-to-End-Medical-Chatbot
     ```
 
